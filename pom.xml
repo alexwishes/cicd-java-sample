@@ -38,12 +38,35 @@
 		    <version>3.141.59</version>
 		</dependency>
 		
+		<!-- https://mvnrepository.com/artifact/com.codeborne/selenide -->
+		<dependency>
+		    <groupId>com.codeborne</groupId>
+		    <artifactId>selenide</artifactId>
+		    <version>5.12.1</version>
+		</dependency>
+						
 		<!-- https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-mapper-asl -->
 		<dependency>
 		    <groupId>org.codehaus.jackson</groupId>
 		    <artifactId>jackson-mapper-asl</artifactId>
 		    <version>1.9.13</version>
 		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-java-commons -->
+		<dependency>
+		    <groupId>io.qameta.allure</groupId>
+		    <artifactId>allure-java-commons</artifactId>
+		    <version>2.13.3</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+<!-- 		<dependency>
+		    <groupId>org.slf4j</groupId>
+		    <artifactId>slf4j-simple</artifactId>
+		    <version>1.7.30</version>
+		    <scope>test</scope>
+		</dependency> -->
+		
 				        
     </dependencies>
 
