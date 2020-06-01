@@ -20,7 +20,7 @@ public class BaseTest {
 
 	@BeforeClass
     public void setUp(){
-        System.setProperty("webdriver.chrome.driver","/home/yangyt001/Downloads/chromedriver");
+        System.setProperty("webdriver.chrome.driver","/var/jenkins_home/tools/chromedriver");
         driver = new ChromeDriver();
     }
 
